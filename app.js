@@ -3,13 +3,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 import { getDatabase, ref, push, onValue} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyByxiVac7AzCmg9fiAoQhgqJGuB5sFzhKQ",
-  authDomain: "task-manager-243c5.firebaseapp.com",
-  databaseURL: "https://task-manager-243c5-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "task-manager-243c5",
-  storageBucket: "task-manager-243c5.appspot.com",
-  messagingSenderId: "74680891917",
-  appId: "1:74680891917:web:65e687e7149e3ff5493344"
+  
 };
 
 // Initialize Firebase
